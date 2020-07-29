@@ -6,7 +6,7 @@ cd /etc/rc.local
 
 2:
 
-/usr/bin/python3 /home/pi/button_interface/pi/button_py/button.py &
+/usr/bin/python3 /home/pi/button_device/pi/button_py/button.py &
 
 
 3:
