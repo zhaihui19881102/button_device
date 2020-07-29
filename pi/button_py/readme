@@ -1,0 +1,21 @@
+
+1:
+
+cd /etc/rc.local
+
+
+2:
+
+/usr/bin/python3 /home/pi/button_interface/pi/button_py/button.py &
+
+
+3:
+wpa_supplicant.conf 
+copy to /etc/wap_supplicant/
+
+3.device ID setting  && server ID setting
+vim button.conf
+
+server_ip=192.168.2.192
+server_port=5001
+device_id=10001
