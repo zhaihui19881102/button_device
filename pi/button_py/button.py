@@ -38,7 +38,7 @@ CONNECT_LED_IO=23
 #press_cnt =0
 #release_cnt =0
 def get_server_info():
-    config_file = open('/home/pi/button_interface/pi/button_py/button.conf')
+    config_file = open('/home/pi/button_device/pi/button_py/button.conf')
     config_hash = {}
     for line in config_file:
         line_key=line.split("=")[0]
